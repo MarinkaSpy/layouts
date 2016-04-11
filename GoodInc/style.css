@@ -47,3 +47,14 @@
 .socials li {
   display: inline-block;
 }
+.bridge {
+  width: 65%;
+  display: inline-block;
+  position: relative;
+}
+.bridge:: after {
+  background-color: #EC6544;
+  width: 2%;
+  content: '';
+  display: inline-block;
+}
