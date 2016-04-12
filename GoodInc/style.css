@@ -48,13 +48,22 @@
   display: inline-block;
 }
 .bridge {
-  width: 65%;
+  width: 63%;
   display: inline-block;
   position: relative;
 }
-.bridge:: after {
-  background-color: #EC6544;
-  width: 2%;
-  content: '';
+.bridge img {
+  width: 100%;
+}
+.mask-text {
+  background-color: #343434;
+  color: white;
+  position: absolute;
+
+}
+.text-bridge {
   display: inline-block;
+  width: 33%;
+  background-color: #343434;
+  color: white;
 }

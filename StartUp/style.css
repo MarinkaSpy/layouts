@@ -1,0 +1,55 @@
+.body {
+  padding: 0;
+  margin: 0;
+}
+.page-header {
+  background-image: url(Home.png);
+  background-size: 100%;
+  display: block;
+}
+.main-header{
+  padding: 30px 210px;
+}
+.header-logo {
+  color: white;
+  font-size: 22px;
+}
+.main-header ul {
+  float: right;
+  margin: 0;
+}
+.header-menu li  {
+  padding-top: 10px;
+  padding-left: 40px;
+  display: inline-block;
+  font-size: 12px;
+}
+.header-menu a {
+  color: white;
+}
+.header-menu a:hover {
+  color: white;
+}
+.text-header {
+  color: white;
+  text-align: center;
+  margin-top: 190px;
+  margin-bottom: 225px;
+}
+.text-header h1 {
+  text-transform: uppercase;
+  font-size: 44px;
+}
+.text-header p {
+  text-transform: capitalize;
+  margin: 20px 0 35px;
+  font-size: 19px;
+}
+.header-button {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 10px 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+
+}
