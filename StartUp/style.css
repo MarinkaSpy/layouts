@@ -45,7 +45,7 @@
   margin: 20px 0 35px;
   font-size: 19px;
 }
-.header-button {
+.button {
   border: 1px solid white;
   background-color: transparent;
   padding: 10px 30px;
@@ -128,4 +128,19 @@
   padding: 10px 10px;
   display: inline-block;
   font-size: 12px;
+}
+.page-block-photo {
+  background-image: url(Home2.png);
+  background-size: 100%;
+  display: block;
+}
+.photo-text h1 {
+    font-size: 30px;
+    font-weight: normal;
+}
+.photo-text {
+  color: white;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 100px;
 }
