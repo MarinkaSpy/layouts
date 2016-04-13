@@ -52,20 +52,29 @@
   font-size: 15px;
   text-transform: uppercase;
 }
-.container {
+.page-block {
   color:#555555;
   text-align: center;
 }
-.container h2 {
+.page-block hr {
+  margin: 28px 545px;
+  border: 1px solid #555555;
+}
+.page-block h2 {
+  font-size: 19px;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+.page-block h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.page-block p {
   font-size: 16px;
-  text-transform: uppercase;
 }
-.container h3 {
-  font-size: 12px;
-  text-transform: uppercase;
-}
-.container p {
-  font-size: 12px;
+.services .row {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .circle {
     position: relative;
@@ -98,4 +107,25 @@
   font-size: 50px;
   top: 20px;
   left: 20px;
+}
+.grey {
+  background-color: #F8F8F8;
+}
+.about-us .col-md-6 {
+  text-align: justify;
+}
+.about-us .col-md-3 {
+  text-align: center;
+}
+.about-us .bottom-row {
+  padding-bottom: 100px;
+}
+.latest-works ul {
+  text-decoration: none;
+  margin: 0 auto;
+}
+.latest-works li  {
+  padding: 10px 10px;
+  display: inline-block;
+  font-size: 12px;
 }
