@@ -150,14 +150,19 @@
 .post img{
   float: left;
 }
-.post > p{
-  margin-left: 100px;
+.post-content{
+  margin-left: 500px;
+  text-align: left;
 }
 .post h2 {
   display: inline-block;
   padding: 0;
 }
+.post-content__header {
+
+}
 .date {
+  float:left;
   font-size: 24px;
   display: inline-block;
   padding: 0px 20px;
