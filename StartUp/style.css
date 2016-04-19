@@ -171,3 +171,28 @@
 .date p {
   padding: 0;
 }
+.contacts {
+    margin: 40px;
+    display: inline-block;
+}
+.item {
+  position: relative;
+}
+.icon {
+    position: absolute;
+    left: -40px;
+}
+
+.red{
+  background-color: #C03228;
+}
+.circle-small {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto;
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      border: 2px solid #ffffff;
+      color: #ffffff;
+  }
