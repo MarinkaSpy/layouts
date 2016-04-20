@@ -182,7 +182,9 @@
     position: absolute;
     left: -40px;
 }
-
+.row {
+  width: 100%;
+}
 .red{
   background-color: #C03228;
 }
