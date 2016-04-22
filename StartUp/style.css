@@ -56,7 +56,7 @@
   color:#555555;
   text-align: center;
 }
-.page-block hr {
+.page-block .short-line {
   margin: 28px 545px;
   border: 1px solid #555555;
 }
@@ -88,7 +88,7 @@
 
 .circle_red{
   color: white;
-  background-color: #C03228;ç
+  background-color: #C03228;
 }
 .circle span {
     position: absolute;
@@ -111,6 +111,10 @@
 .grey {
   background-color: #F8F8F8;
 }
+.about-us .top-row {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
 .about-us .col-md-6 {
   text-align: justify;
 }
@@ -121,13 +125,19 @@
   padding-bottom: 100px;
 }
 .latest-works ul {
-  text-decoration: none;
-  margin: 0 auto;
+
 }
 .latest-works li  {
-  padding: 10px 10px;
-  display: inline-block;
-  font-size: 12px;
+  padding: 10px 30px 10px 0;
+display: inline-block;
+font-size: 16px;
+}
+.latest-works li a {
+  text-decoration: none;
+  color: #555555;
+}
+.latest-works li a:hover{
+  color: #C03228;
 }
 .page-block-photo {
   background-image: url(Home2.png);
@@ -135,14 +145,16 @@
   display: block;
 }
 .photo-text h1 {
+    line-height: 1.3em;
     font-size: 30px;
     font-weight: normal;
+    padding-bottom: 35px;
 }
 .photo-text {
   color: white;
   text-align: center;
-  padding-top: 75px;
-  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 80px;
 }
 .post {
   clear:both;
@@ -171,6 +183,7 @@
 .date p {
   padding: 0;
 }
+
 .contacts {
     margin: 40px;
     display: inline-block;
