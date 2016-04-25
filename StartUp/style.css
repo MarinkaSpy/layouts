@@ -52,6 +52,20 @@
   font-size: 15px;
   text-transform: uppercase;
 }
+
+ .logo img {
+   margin: 70px 20px;
+ }
+ .logo p {
+   margin: 0 180px 20px;
+ }
+ .logo .circle {
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+   border-color: #555555;
+   display: inline-block;
+ }
 .page-block {
   color:#555555;
   text-align: center;
@@ -81,7 +95,7 @@
     margin: 0 auto;
     width: 90px;
     height: 90px;
-    border-radius: 545px;
+    border-radius: 45px;
     border: 1px solid #E3E3E3;
     color: #C03228;
 }
@@ -138,6 +152,9 @@ font-size: 16px;
 }
 .latest-works li a:hover{
   color: #C03228;
+}
+.latest-works .row {
+  margin-bottom: 20px;
 }
 .page-block-photo {
   background-image: url(Home2.png);
