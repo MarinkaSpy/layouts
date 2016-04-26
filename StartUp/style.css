@@ -53,19 +53,6 @@
   text-transform: uppercase;
 }
 
- .logo img {
-   margin: 70px 20px;
- }
- .logo p {
-   margin: 0 180px 20px;
- }
- .logo .circle {
-   width: 20px;
-   height: 20px;
-   border-radius: 10px;
-   border-color: #555555;
-   display: inline-block;
- }
 .page-block {
   color:#555555;
   text-align: center;
@@ -153,6 +140,9 @@ font-size: 16px;
 .latest-works li a:hover{
   color: #C03228;
 }
+.photo-works {
+  margin: 70px 0 80px;
+}
 .latest-works .row {
   margin-bottom: 20px;
 }
@@ -187,9 +177,19 @@ font-size: 16px;
   display: inline-block;
   padding: 0;
 }
-.post-content__header {
-
+.post p {
+  margin-bottom: 20px;
 }
+.post a {
+  font-size: 14px;
+  text-transform: uppercase;;
+  text-decoration: none;
+  color: #555555;
+}
+.post a:focus, .post a:hover {
+    color: #C33F2D;
+    text-decoration: none;
+  }
 .date {
   float:left;
   font-size: 24px;
@@ -199,8 +199,28 @@ font-size: 16px;
 }
 .date p {
   padding: 0;
+  margin: 10px 0;
 }
-
+.logo {
+  margin: 90px 0;
+}
+ .logo img {
+   margin: 0 20px 60px;
+ }
+ .logo p {
+   margin: 30px 200px;
+ }
+ .logo .signature {
+   font-size: 20px;
+ }
+ .logo .circle {
+   width: 16px;
+   height: 16px;
+   border-radius: 8px;
+   border-color: #D8D8D8;
+   border-width: 8px;
+   display: inline-block;
+ }
 .contacts {
     margin: 40px;
     display: inline-block;
@@ -218,13 +238,35 @@ font-size: 16px;
 .red{
   background-color: #C03228;
 }
-.circle-small {
+.footer {
+  padding: 80px 0;
+}
+.footer .circle-small {
       display: inline-block;
       position: relative;
-      margin: 0 auto;
-      width: 30px;
-      height: 30px;
-      border-radius: 15px;
+      margin: 0 5px;
+      width: 35px;
+      height: 35px;
+      border-radius: 20px;
       border: 2px solid #ffffff;
       color: #ffffff;
   }
+.footer p {
+  color: #ffffff;
+}
+.footer hr {
+  margin: 28px 545px;
+  border: 1px solid #ffffff;
+}
+.circle-small .fa-facebook{
+  position: absolute;
+  left: 12px;
+  top: 9px;
+}
+.circle-small .fa-vk,
+.circle-small .fa-google,
+.circle-small .fa-twitter {
+  position: absolute;
+  left: 9px;
+  top: 9px;
+}
