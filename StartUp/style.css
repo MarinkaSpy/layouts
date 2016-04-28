@@ -75,7 +75,7 @@
 }
 .services .row {
   margin-top: 60px;
-  margin-bottom: 60px;
+
 }
 .circle {
     position: relative;
@@ -111,6 +111,7 @@
 }
 .grey {
   background-color: #F8F8F8;
+  margin-top: 60px;
 }
 .about-us .top-row {
   padding-top: 50px;
@@ -124,6 +125,44 @@
 }
 .about-us .bottom-row {
   padding-bottom: 100px;
+  position: relative;
+}
+.about-us .photo-member {
+  position: relative;
+}
+.about-us .mask{
+  position: absolute;
+  width: 100%;
+  background-color: #555555;
+  opacity: 0.4;
+  top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+}
+.about-us .fa {
+  color: white;
+}
+.about-us .angle-left {
+  position: absolute;
+  background-color: #8F8F8F;
+  width: 40px;
+  height: 40px;
+  color: white;
+    font-size: 26px;
+    left: 15px;
+    top: 100px;
+}
+.about-us .angle-right {
+  position: absolute;
+  background-color: #8F8F8F;
+  width: 40px;
+  height: 40px;
+  color: white;
+  right: 0;
+  font-size: 26px;
+  right: 15px;
+    top: 100px;
 }
 .latest-works ul {
 
@@ -166,11 +205,13 @@ font-size: 16px;
 .post {
   clear:both;
 }
-.post img{
+
+.post img {
   float: left;
 }
 .post-content{
-  margin-left: 500px;
+  margin: 40px 0 40px 500px;
+  min-height: 323px;
   text-align: left;
 }
 .post h2 {
@@ -217,20 +258,31 @@ font-size: 16px;
    width: 16px;
    height: 16px;
    border-radius: 8px;
-   border-color: #D8D8D8;
-   border-width: 8px;
+   background-color: #DDDDDD;
    display: inline-block;
+ }
+ .logo .circle:hover {
+   background-color:#C33F2D;
  }
 .contacts {
     margin: 40px;
     display: inline-block;
 }
+
 .item {
+  margin-left: 20px;
+  text-align: left;
   position: relative;
 }
 .icon {
     position: absolute;
-    left: -40px;
+    left: -30px;
+    top: -4px;
+}
+.contacts .input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
 }
 .row {
   width: 100%;
