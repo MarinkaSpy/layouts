@@ -78,10 +78,12 @@
               <div class="photo-member">
                 <img src="member1.png" alt="khalil">
                 <div class="mask">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                  <i class="fa fa-google-plus" aria-hidden="true"></i>
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  <div class="mask-logo">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </div>
                 </div>
               </div>
               <h3>md. khalil uddin</h3>
@@ -163,7 +165,7 @@
                   <p>oct</p>
                 </div>
                 <h2>startup ideas needs to be founded</h2>
-                <p>By Khalil Uddin in Development</p>
+                <p class="italic">By Khalil Uddin in Development</p>
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facere beatae amet, odit impedit illo eveniet! Quaerat tempora, hic laudantium. Unde nostrum odit dignissimos, aut culpa corrupti, maxime ab tenetur.
@@ -182,7 +184,7 @@
                   <p>oct</p>
                 </div>
                 <h2>user interface designing elements</h2>
-                <p>By Khalil Uddin in Development</p>
+                <p class="italic">By Khalil Uddin in Development</p>
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem impedit libero ad nisi. Ut, facere eveniet consequuntur doloribus eligendi enim quis quo at, pariatur, aut dolor explicabo sed suscipit ducimus.
@@ -263,7 +265,18 @@
                   </div>
                   <div class="row">
                     <div class="col-md-12">
-                      <input class="input" type="text" name="message" placeholder="WRITE YOUR MESSAGE"></input>
+                      <textarea  class="message" name="message" placeholder="WRITE YOUR MESSAGE" rows="4"></textarea>
+                    </div>
+                  </div>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <input class="submit" type="submit" nane="send message" value="send message">
+                      </div>
+                      <div class="col-md-9 text-left contacts-signature">
+                        <span class="text-red">*</span>
+                        <span>We'll contact you as soon as possible. We dont't reply on Monday.</span>
+                      </div>
+                    </div>
                     </div>
                   </div>
                 </form>
