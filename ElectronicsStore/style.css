@@ -108,6 +108,7 @@
   border: 1px solid #DADADA;
   border-radius: 5px;
   background-color: #F2F2F2;
+  margin-bottom: 30px;
 }
 .offers__image {
   border-radius: 0 5px 5px 0;
@@ -129,13 +130,43 @@
 .offers__image__text {
   padding: 100px 0 0 60px;
 }
+.offers__image__text .t1{
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+.offers__image__text .t2 {
+  line-height: 1.1;
+  font-size: 20px;
+}
+.offers__image__text .t3 {
+  font-size: 40px;
+  font-weight: bold;
+}
 .sidebar-nav  {
   width: 30%;
   display: inline-block;
+  padding: 0 10px;
 }
 .sidebar-nav ul {
-  padding: 0;
+  padding: 20px 0 0 0;
   list-style: none;
+}
+.sidebar-nav li {
+  padding-left: 20px;
+}
+.sidebar-nav a {
+  color: #273335;
+}
+.sidebar-nav hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.sidebar-nav .categories {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: linear-gradient(to top, #F2F2F2, #ffffff);
+
 }
 .triangle {
   border: 5px solid transparent;
@@ -151,4 +182,7 @@
   background-color: #4BB5EB;
   color: #ffffff;
   border-radius: 5px;
+}
+.price {
+  color: #4BB5EB;
 }
