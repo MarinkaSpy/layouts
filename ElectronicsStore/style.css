@@ -223,15 +223,16 @@ top: 2px;
   display: inline-block;
 }
 .sidebar-nav input[type="submit"] {
-    width: 20px;
+    border-radius: 5px;
+    width: 25px;
     height: 20px;
     border: none;
     background-color: #4BB5EB;
    }
 .triangle-bottom {
   position: absolute;
-  top: 10px;
-  left: 5px;
+  top: 9px;
+  left: 7px;
   border: 5px solid transparent;
   border-top: 5px solid #ffffff;
 }
@@ -243,7 +244,7 @@ top: 2px;
 }
 .content .form-button-blue {
   display: inline-block;
-    float: right;
+  float: right;
 }
 .content .button-blue {
   background: linear-gradient(to top, #49B4F1, #60D7F8);
@@ -252,18 +253,18 @@ top: 2px;
   border: none;
   padding: 5px 20px;
 }
-.content img {
+.mainpage img {
   height: 120px;
 }
-.content .col-md-3 {
+.mainpage .col-md-3 {
   height: auto;
   border-right: 1px dotted #273335;
   border-bottom: 1px dotted #273335;
 }
-.content .col-md-3:last-of-type {
+.mainpage .col-md-3:last-of-type {
   border-right: none;
 }
-.content .row:last-of-type .col-md-3{
+.mainpage .row:last-of-type .col-md-3{
   border-bottom: none;
 }
 .price {
@@ -275,8 +276,20 @@ top: 2px;
 .spotlight .triangle {
   margin-left: 10px;
 }
+.spotlight img {
+  padding-left: 30px;
+}
 .spotlight .spotlight__text {
   display: inline-block;
+  height: 70px;
+  min-width: 80px;
+  max-width: 110px;
+  position: relative;
+  vertical-align: top;
+}
+.spotlight .price {
+  position: absolute;
+  bottom: 0;
 }
 .spotlight .fa-angle-left {
   position: absolute;
@@ -308,10 +321,34 @@ top: 2px;
 .footer .mainmenu a:last-child {
   border-right: none;
 }
-.contact-us input {
+.contact-us input[type="text"] {
+margin-bottom: 10px;
+width: 100%;
+}
+.contact-us .form-text {
+  padding-right: 20px;
+}
+.contact-us .button-blue, .account .button-blue {
   float: right;
   margin-right: 20px;
+  margin-top: 20px;
 }
-.contact-us label {
-  font-weight: 400;
+.account .bold {
+  font-weight: 600;
+  margin-top: 40px;
+}
+.account input[type="text"], .account input[type="password"]{
+  margin-bottom: 10px;
+  width: 100%;
+}
+.account .col-md-2, .account .col-md-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.account .row {
+  margin-left: 0px;
+}
+.account .col-md-2:last-of-type {
+  padding-left: 5px;
+  color: #4BB5EB;
 }
