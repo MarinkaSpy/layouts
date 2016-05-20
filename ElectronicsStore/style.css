@@ -352,3 +352,10 @@ width: 100%;
   padding-left: 5px;
   color: #4BB5EB;
 }
+.content .catalog-panel {
+  margin: 10px 0;
+}
+.content .pages {
+  float: right;
+  margin-right: 40px;
+}
