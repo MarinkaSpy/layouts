@@ -121,6 +121,20 @@
   height: 90%;
   top: 5%;
 }
+.recent {
+  border: 1px solid #F0F0F0;
+  padding: 10px 0 0 10px;
+}
+.recent .image {
+  display: inline-block;
+    width: 25%;
+}
+.recent img {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px 10px 0;
+}
+
 .page-footer {
   background-color: #000000;
 }
